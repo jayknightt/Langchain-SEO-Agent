@@ -4,7 +4,7 @@ export default function AgentsPage() {
   const InfoCard = (
     <div className="p-4 md:p-8 rounded bg-[#25252d] w-full max-h-[85%] overflow-hidden">
       <h1 className="text-3xl md:text-4xl mb-4">
-        ▲ Next.js + LangChain.js Agents 🦜🔗
+        ▲ SEO Agent 🔗
       </h1>
       <ul>
         <li className="text-l">
@@ -69,7 +69,7 @@ export default function AgentsPage() {
         <li className="text-l">
           👇
           <span className="ml-2">
-            Try asking e.g. <code>What is the weather in Honolulu?</code> below!
+            Try asking e.g. <code>What is thetemperature in Tel Aviv?</code> below!
           </span>
         </li>
       </ul>
@@ -79,8 +79,8 @@ export default function AgentsPage() {
     <ChatWindow
       endpoint="api/chat/agents"
       emptyStateComponent={InfoCard}
-      placeholder="Squawk! I'm a conversational agent! Ask me about the current weather in Honolulu!"
-      titleText="Polly the Agentic Parrot"
+      placeholder="Squawk! I'm a conversational agent! Ask me about the current temperature in Tel Aviv!"
+      titleText="Your #1 Search Agent"
       emoji="🦜"
       showIntermediateStepsToggle={true}
     ></ChatWindow>
